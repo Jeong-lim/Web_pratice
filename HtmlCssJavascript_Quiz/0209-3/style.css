@@ -1,0 +1,12 @@
+#move {
+    animation:move 2s steps(60) infinite;   
+    width:470px;
+    height:500px;   
+    background: url(./images/image.png) no-repeat;
+    border: 5px solid;
+}
+
+@keyframes move {
+    from {background-position:0 0}
+    to   {background-position:-28320px 0} 
+}

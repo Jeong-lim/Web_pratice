@@ -1,0 +1,101 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#inner {
+    position: relative;
+    width: 1200px;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+
+#inner .notice_box {
+    width: 520px;
+    height: 220px;
+    border:  1px solid #e5e5e5;
+    margin-bottom: 100px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#inner .notice_menu {
+    padding: 0 23px;
+    height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+#inner .menu {
+    position: relative;
+    left: -50px;
+    top: -5px;
+}
+
+#inner button {
+    vertical-align: top;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#inner li {
+    float: left;
+    list-style: none;
+}
+
+#footer {
+    border-top: 1px solid #e5e5e5;
+}
+
+#footer .logo  {
+    width: 150px;
+    height: 100px;
+}
+
+#footer .info {
+    position: relative;
+    width: 900px;
+    padding: 30px 100px 0 0;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+
+#footer .info span,
+#footer .info address,
+#footer .info a {
+    display: inline-block;
+    font-size: 14px;
+    color: #464646;
+    margin: 0 10px 5px 0;
+}
+
+#footer span, address {
+    font-style: normal;
+}
+
+#footer .sns_area .insta {
+    width: 25px;
+    height: 25px;
+}
+
+#footer .sns_area .blog {
+    width: 25px;
+    height: 25px;
+}
+
+#footer .sns_area {
+    display: block;
+    position: absolute;
+    display: flex;
+    right: -300px;
+    top: 130px;
+    margin-right: 100px;
+}
+
+#footer .copyright {
+    font-size: 14px;
+    color: #aaaaaa;
+}

@@ -1,0 +1,14 @@
+#image a img {
+    width: 100px;
+    height: 100px;
+    
+}
+#image {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: #C1DE02;
+    border: 5px solid pink;
+}

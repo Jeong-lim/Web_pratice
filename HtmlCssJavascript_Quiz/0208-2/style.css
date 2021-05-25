@@ -1,0 +1,14 @@
+.cat {
+    width: 500px;
+    height: 500px;
+    border: 5px solid;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover {
+    width: 500px;
+    height: 500px;
+}

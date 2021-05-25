@@ -1,0 +1,23 @@
+button {
+    width:120px;
+	height: 100px;
+	color:#fff;
+    border:black 5px solid;
+	background: orange;
+	font-size: 16px;
+}
+
+#move {
+        
+    width:200px;
+    height:345px;
+    background:url(./images/character.png);
+    
+    animation:move 1s steps(8);
+    animation-play-state: paused;  
+}
+
+@keyframes move {
+    from {background-position:0 0}
+    to   {background-position:-2252px 0}
+}

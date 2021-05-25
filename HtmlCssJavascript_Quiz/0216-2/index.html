@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <div>
+        <div id="square" onmouseover="mover()" onmouseout="mout()"></div>
+        <div id="circle" onmouseover="circleover()" onmouseout="circleout()">중앙</div>
+        </div> 
+        
+    <script>
+        function mover(){
+            document.getElementById("square").style.backgroundColor="white";
+        }
+        function mout(){
+            document.getElementById("square").style.backgroundColor="gray";
+        }
+        function circleover(){
+            document.getElementById("circle").style.color="orange";
+            document.getElementById("square").style.backgroundColor="white";
+        }
+        function circleout(){
+            document.getElementById("circle").style.color="white"
+        }
+    </script>
+    
+
+</body>
+</html>

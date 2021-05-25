@@ -1,0 +1,15 @@
+#redsqure {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+#yellowsqure {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+#bluesqure {
+        width: 100px;
+        height: 100px;
+        background: blue;
+}
